@@ -10,11 +10,11 @@ import {
   IconButton,
   Typography,
 } from "@mui/material";
-import photo from "../assets/img/4.jpg";
+import photo from "../assets/img/40.jpg";
 
 const Post = () => {
   return (
-    <Card sx={{ margin: 5 }} elevation={20}>
+    <Card sx={{ my:4, mx:12 }} elevation={20}>
       <CardHeader
         avatar={
           <Avatar sx={{ bgcolor: "red" }} aria-label="recipe">
@@ -27,7 +27,7 @@ const Post = () => {
           </IconButton>
         }
         title="Jane Doe"
-        subheader="December 10, 2021"
+        subheader="June 18, 2022"
       />
       <CardMedia component="img" height="20%" image={photo} alt="Jane Doe" />
       <CardContent>

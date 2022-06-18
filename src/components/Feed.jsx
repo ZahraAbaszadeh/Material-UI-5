@@ -20,7 +20,7 @@ const Feed = () => {
         </Stack>
       ) : (
         <>
-          {Array.from(Array(6)).map(() => (
+          {Array.from(Array(5)).map(() => (
             <Post />
           ))}
         </>
