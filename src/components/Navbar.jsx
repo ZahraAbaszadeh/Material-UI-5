@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import photo from "../assets/img/pexels-photo-846741.jpeg";
+import photo from "../assets/img/1.jpg";
 import {
   AppBar,
   Toolbar,
@@ -54,10 +54,10 @@ export default function Navbar() {
           <InputBase placeholder="search..." />
         </Search>
         <Icons>
-          <Badge badgeContent={4} color="error">
+          <Badge badgeContent={3} color="error">
             <Mail />
           </Badge>
-          <Badge badgeContent={2} color="error">
+          <Badge badgeContent={1} color="error">
             <Notifications />
           </Badge>
           <Avatar
@@ -68,7 +68,7 @@ export default function Navbar() {
         </Icons>
         <UserBox onClick={(e) => setOpen(true)}>
           <Avatar sx={{ width: 30, height: 30 }} src={photo} />
-          <Typography variant="span">John</Typography>
+          <Typography variant="span">Jane</Typography>
         </UserBox>
       </StyledToolbar>
       <Menu

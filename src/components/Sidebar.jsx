@@ -85,7 +85,7 @@ export default function Sidebar() {
               <ListItemIcon>
                 <ModeNight />
               </ListItemIcon>
-              <Switch  defaultChecked />
+              <Switch />
               {/* <Switch
                 onChange={(e) => setMode(mode === "light" ? "dark" : "light")}
               /> */}

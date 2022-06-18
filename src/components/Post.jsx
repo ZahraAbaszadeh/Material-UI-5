@@ -10,7 +10,7 @@ import {
   IconButton,
   Typography,
 } from "@mui/material";
-import photo from "../assets/img/pexels-photo-846741.jpeg";
+import photo from "../assets/img/4.jpg";
 
 const Post = () => {
   return (
@@ -18,7 +18,7 @@ const Post = () => {
       <CardHeader
         avatar={
           <Avatar sx={{ bgcolor: "red" }} aria-label="recipe">
-            R
+            J
           </Avatar>
         }
         action={
@@ -26,20 +26,15 @@ const Post = () => {
             <MoreVert />
           </IconButton>
         }
-        title="John Doe"
-        subheader="September 14, 2022"
+        title="Jane Doe"
+        subheader="December 10, 2021"
       />
-      <CardMedia
-        component="img"
-        height="20%"
-        image={photo}
-        alt="Paella dish"
-      />
+      <CardMedia component="img" height="20%" image={photo} alt="Jane Doe" />
       <CardContent>
         <Typography variant="body2" color="text.secondary">
-          This impressive paella is a perfect party dish and a fun meal to cook
-          together with your guests. Add 1 cup of frozen peas along with the
-          mussels, if you like.
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius fugiat
+          nam enim expedita error, tempora aliquam. Architecto, reprehenderit
+          iusto.
         </Typography>
       </CardContent>
       <CardActions disableSpacing>
